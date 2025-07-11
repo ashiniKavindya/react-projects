@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button{
+  background-color: green;
+}
+
+.add-button:hover{
+  background-color: aqua;
+}
+
+.delete-button{
+  background-color: rgb(128, 0, 0);
+}
+
+.delete-button:hover{
+  background-color: rgb(255, 51, 0);
+}
+
+.move-button{
+  background-color: green;
+}
+
+.move-button:hover{
+  background-color: aqua;
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  color:gray ;
+  margin-right: 10px;
+}
+
+ol{
+  padding:0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.delete-button, .move-button{
+  padding: 10px;
+  margin-left: 10px;
+}
